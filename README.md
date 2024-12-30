@@ -1,4 +1,4 @@
-This is a personal portfolio website showcasing the projects, skills, and professional experience. The website is built using modern web technologies and is deployed on Vercel.
+This is a my personal portfolio website showcasing the projects, skills, and professional experience. The website is built using modern web technologies and is deployed on Vercel.
 
 Features:
 
