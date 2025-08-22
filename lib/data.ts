@@ -111,5 +111,6 @@ export const skillsData = [
   "MongoDB",
   "Figma",
   "Express",
+  "React Native",
   
 ] as const;
