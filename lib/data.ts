@@ -61,14 +61,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Meme Generator",
+    title: "Whatsapp-Clone",
     description: `
-     Developed a React-based meme generator with an intuitive UI. Implemented real-time text editing and drag-and-drop features for meme customization.
-      Optimized for both desktop and mobile devices.
+     Built a WhatsApp-like Android app with OTP login, and functional Chats, Status & Calls screens using React Navigation. Designed clean UI with smooth navigation and mobile responsiveness.
     `,
-    tags: ["React.js", "CSS3", "JavaScript", "Git", "VS Code"],
-    imageUrl: memegenerator,
-    GitHubUrl: "https://github.com/spriha-srivastava/meme-generator",
+    tags: ["React Native", "Expo", "Andriod", "Git", "VS Code"],
+    imageUrl: ,
+    GitHubUrl: "https://github.com/spriha-srivastava/Clone-Whatsapp.git",
   },
   {
     title: "Crypto Info Web App",
