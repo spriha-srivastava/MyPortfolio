@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import CryptoInfo from "@/public/cryptoInfo.png";
 import geminiimg from "@/public/gemini.png";
 import wetherapp from "@/public/weather.png";
-import memegenerator from "@/public/memegenerator.png"
+import rescuenet from "@/public/RescueNet.png";
 
 
 export const links = [
@@ -61,14 +61,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Meme Generator",
-    description: `
-     Developed a React-based meme generator with an intuitive UI. Implemented real-time text editing and drag-and-drop features for meme customization.
-      Optimized for both desktop and mobile devices.
+    title: "Rescue-Net",
+    description: `Built an interactive Volunteer Dashboard displaying task stats, emergency alerts, recent activities, and upcoming events, along with critical contact information.
     `,
-    tags: ["React.js", "CSS3", "JavaScript", "Git", "VS Code"],
-    imageUrl: memegenerator,
-    GitHubUrl: "https://github.com/spriha-srivastava/meme-generator",
+    tags: ["React.js", "Tailwind CSS", "JavaScript", "MongoDB", "Express.js", "Git", "VS Code"],
+    imageUrl: rescuenet,
+    GitHubUrl: "https://github.com/spriha-srivastava/Rescue-Net",
   },
   {
     title: "Crypto Info Web App",
@@ -110,7 +108,7 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "MongoDB",
-  "Figma",
   "Express",
+  "React Native"
   
 ] as const;
