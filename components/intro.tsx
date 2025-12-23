@@ -33,7 +33,7 @@ export default function Intro() {
           >
             <Image
               src={ProfilePic}
-              alt="Ricardo portrait"
+              alt="Spriha portrait"
               width="192"
               height="192"
               quality="95"
@@ -80,10 +80,10 @@ export default function Intro() {
         <Link
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-          // onClick={() => {
-          //   setActiveSection("Contact");
-          //   setTimeOfLastClick(Date.now());
-          // }}
+        // onClick={() => {
+        //   setActiveSection("Contact");
+        //   setTimeOfLastClick(Date.now());
+        // }}
         >
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
@@ -91,7 +91,7 @@ export default function Intro() {
 
         <a
           className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
-          href="/spriha.pdf"
+          href="/resume.pdf"
           download
         >
           Download CV{" "}

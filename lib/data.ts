@@ -1,11 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaGoogle, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import CryptoInfo from "@/public/cryptoInfo.png";
 import geminiimg from "@/public/gemini.png";
 import wetherapp from "@/public/weather.png";
-import rescuenet from "@/public/RescueNet.png";
+import rescuenet from "@/public/rescuenet.png";
 
 
 export const links = [
@@ -36,7 +35,15 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  
+
+  {
+    title: "Internship Trainee | Shape My Skill",
+    location: "Lucknow , Uttar Pradesh",
+    description: ` Mastered the MERN stack with hands-on experience in building responsive React UIs, integrating APIs, managing MongoDB databases, and developing secure, optimized full-stack web applications.`,
+    icon: React.createElement(CgWorkAlt),
+    date: "June 2024 – Aug 2024",
+  },
+
   {
     title: "Web Development Intern | Lets Grow More",
     location: "Remote",
@@ -48,7 +55,7 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Dec 2023 - Jan 2024",
   },
-  
+
   {
     title: "Babu Banarasi Das Institute of Technology and Management",
     location: "Lucknow , Uttar Pradesh",
@@ -77,7 +84,7 @@ export const projectsData = [
     GitHubUrl: "https://github.com/spriha-srivastava/crypto-info",
   },
   {
-  title: "AI Chat-Bot",
+    title: "AI Chat-Bot",
     description: `
       Built a responsive interface using React.js and Google Generative AI .Integrated external APIs for fetching dynamic data and implemented robust error handling.
     `,
@@ -110,5 +117,5 @@ export const skillsData = [
   "MongoDB",
   "Express",
   "React Native"
-  
+
 ] as const;
