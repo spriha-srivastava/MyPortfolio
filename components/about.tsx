@@ -19,20 +19,16 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Hello 👋 I'm Pre final year student of {" "}
-        <span className="font-medium">Computer Science Engineering </span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        Hello 👋 I am a pre-final year <span className="font-medium">Computer Science Engineering</span> student with a strong passion for frontend development. I have completed a coding bootcamp where
+        I gained hands-on experience in building responsive and user-friendly web applications.
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        feeling of finally figuring out a solution to a problem. My core tech stack includes{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          React, Next.js, JavaScript, Tailwind CSS, and modern UI libraries.
         </span>
-        I am always looking to learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I love learning new technologies and continuously improving my skills. Currently, I am seeking a{" "}
+        <span className="font-medium">full-time opportunity as a Frontend Developer</span> where I can contribute and grow professionally.
       </p>
 
     </motion.section>

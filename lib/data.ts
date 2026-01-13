@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import CryptoInfo from "@/public/cryptoInfo.png";
 import geminiimg from "@/public/gemini.png";
-import wetherapp from "@/public/weather.png";
 import rescuenet from "@/public/rescuenet.png";
+import travelMate from "@/public/travelmate.png";
 
 
 export const links = [
@@ -56,14 +56,14 @@ export const experiencesData = [
     date: "Dec 2023 - Jan 2024",
   },
 
-  {
-    title: "Babu Banarasi Das Institute of Technology and Management",
-    location: "Lucknow , Uttar Pradesh",
-    description:
-      "Bachelor of Technology in Computer Science.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021-2025",
-  },
+  // {
+  //   title: "Babu Banarasi Das Institute of Technology and Management",
+  //   location: "Lucknow , Uttar Pradesh",
+  //   description:
+  //     "Bachelor of Technology in Computer Science.",
+  //   icon: React.createElement(LuGraduationCap),
+  //   date: "2021-2025",
+  // },
 ] as const;
 
 export const projectsData = [
@@ -93,15 +93,11 @@ export const projectsData = [
     GitHubUrl: "https://github.com/spriha-srivastava/gemini",
   },
   {
-    title: "Weather Web App",
-    description: `
-      Fetches and displays current weather details such as temperature, humidity, wind speed, and conditions using an API.
-      Enables users to search weather information by city name.
-      Ensures seamless compatibility across all devices, including desktops, tablets, and smartphones.
-    `,
-    tags: ["HTML5", "CSS3", "JavaScript", "Fetch API", "Git", "VS Code"],
-    imageUrl: wetherapp,
-    GitHubUrl: "https://github.com/spriha-srivastava/weather-app",
+    title: "TravelMate",
+    description: `TravelMate is a fully responsive frontend travel booking landing page that showcases destinations, hotels, and tour experiences. It features a clean UI, smooth navigation, and modern design optimized for all screen sizes.`,
+    tags: ["Next.js", "Tailwind CSS", "TypeScript", "Git", "VS Code"],
+    imageUrl: travelMate,
+    GitHubUrl: "https://travel-mate-page.vercel.app/",
   },
 ] as const;
 
