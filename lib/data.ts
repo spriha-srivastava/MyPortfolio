@@ -35,6 +35,13 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "Frontend Developer | Zamboree Techvision",
+    location: "Lucknow , Uttar Pradesh",
+    description: ` Worked on client-based software projects, implementing UI designs provided by designers. Improved application flow and user experience by optimizing layouts and interactions.`,
+    icon: React.createElement(CgWorkAlt),
+    date: "Oct 2025 – Mar 2026",
+  },
 
   {
     title: "Internship Trainee | Shape My Skill",
@@ -68,6 +75,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "TravelMate",
+    description: `TravelMate is a fully responsive frontend travel booking landing page that showcases destinations, hotels, and tour experiences. It features a clean UI, smooth navigation, and modern design optimized for all screen sizes.`,
+    tags: ["Next.js", "Tailwind CSS", "TypeScript", "Git", "VS Code"],
+    imageUrl: travelMate,
+    GitHubUrl: "https://travel-mate-page.vercel.app/",
+  },
+  {
     title: "Rescue-Net",
     description: `Built an interactive Volunteer Dashboard displaying task stats, emergency alerts, recent activities, and upcoming events, along with critical contact information.
     `,
@@ -92,13 +106,7 @@ export const projectsData = [
     imageUrl: geminiimg,
     GitHubUrl: "https://github.com/spriha-srivastava/gemini",
   },
-  {
-    title: "TravelMate",
-    description: `TravelMate is a fully responsive frontend travel booking landing page that showcases destinations, hotels, and tour experiences. It features a clean UI, smooth navigation, and modern design optimized for all screen sizes.`,
-    tags: ["Next.js", "Tailwind CSS", "TypeScript", "Git", "VS Code"],
-    imageUrl: travelMate,
-    GitHubUrl: "https://travel-mate-page.vercel.app/",
-  },
+
 ] as const;
 
 export const skillsData = [
